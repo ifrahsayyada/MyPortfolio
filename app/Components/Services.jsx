@@ -41,7 +41,7 @@ const Services = ({ isDarkMode }) => {
            className='text-center text-base sm:text-lg lg:text-xl mt-6 mb-8 max-w-2xl mx-auto font-Outfit leading-relaxed' 
            style={{ color: isDarkMode ? '#d1d5db' : '#374151' }}
          > 
-                I am a passionate frontend web developer with expertise in HTML, CSS, JavaScript, and React. I create visually appealing and user-friendly websites that deliver exceptional user experiences. Let's collaborate to bring your ideas to life!
+            I am a passionate Full Stack MERN Developer with experience in building modern, responsive, and user-friendly web applications. I work across both frontend and backend using technologies like MongoDB, Express.js, React.js, and Node.js, and I am also developing my knowledge in Data Science and Data Analytics to grow as a future-ready tech professional.
          </motion.p>
             
          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10'>

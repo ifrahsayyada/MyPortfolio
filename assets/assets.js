@@ -107,20 +107,38 @@ export const workData = [
 export const serviceData = [
     { 
         icon: assets.web_icon, 
-        title: 'Web design', 
-        description: 'Web development is the process of building, programming...', 
-        link: '/services/web-design',
-        slug: 'web-design',
-        fullDescription: 'Web development is the process of building, programming, and maintaining websites and web applications. It combines creativity with technical expertise to create stunning, functional, and user-friendly digital experiences.',
+        title: 'Full Stack Web Development', 
+        description: 'I build complete web applications using the MERN stack, handling both frontend and backend development to create functional, scalable, and user-focused digital solutions.', 
+        link: '/services/full-stack-web-development',
+        slug: 'full-stack-web-development',
+        fullDescription: 'I am a passionate Full Stack MERN Developer with experience in building modern, responsive, and user-friendly web applications. I work across both frontend and backend using technologies like MongoDB, Express.js, React.js, and Node.js.',
         features: [
-            'Responsive Design - Websites that work perfectly on all devices',
-            'Modern UI/UX - Clean and intuitive user interfaces',
-            'Performance Optimization - Fast loading and smooth interactions',
-            'SEO Friendly - Built with search engine optimization in mind',
-            'Cross-browser Compatibility - Works seamlessly across all browsers'
+            'Frontend + Backend Development - End-to-end MERN application building',
+            'REST API Development - Clean and scalable backend APIs',
+            'Responsive Interfaces - Mobile-first UI for all devices',
+            'Database Integration - Structured and efficient MongoDB data models',
+            'Deployment Ready - Production-ready app architecture and workflows'
         ],
-        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Next.js', 'Tailwind CSS']
+        technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Next.js', 'JavaScript']
     },
+
+    { 
+        icon: assets.graphics_icon, 
+        title: 'Data Analytics / Data Science Learning', 
+        description: 'I am exploring Data Science and Data Analytics through practical learning and hands-on projects to grow as a future-ready tech professional.', 
+        link: '/services/data-analytics-data-science-learning',
+        slug: 'data-analytics-data-science-learning',
+        fullDescription: 'I am also exploring Data Science and Data Analytics through practical learning and hands-on projects. My goal is to combine development skills with data-driven thinking and continue growing in this direction over time.',
+        features: [
+            'Hands-on Learning - Building practical mini-projects and case studies',
+            'Data Cleaning & Preparation - Working with real-world datasets',
+            'Exploratory Data Analysis - Finding trends and actionable insights',
+            'Visualization - Presenting data clearly with charts and dashboards',
+            'Continuous Growth - Expanding skills in analytics and data science tools'
+        ],
+        technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Jupyter']
+    },
+
     { 
         icon: assets.mobile_icon, 
         title: 'Mobile app', 
@@ -153,27 +171,12 @@ export const serviceData = [
         ],
         technologies: ['Figma', 'Adobe XD', 'Sketch', 'InVision', 'Photoshop']
     },
-    { 
-        icon: assets.graphics_icon, 
-        title: 'Game Design (Beginner)', 
-        description: 'Creating engaging game concepts and interactive experiences...', 
-        link: '/services/game-design',
-        slug: 'game-design',
-        fullDescription: 'Game Design is the creative process of designing game mechanics, storylines, and player experiences. As a beginner game designer, I focus on learning and creating engaging game concepts, level designs, and interactive gameplay elements that provide fun and memorable experiences.',
-        features: [
-            'Game Concept Development - Creating unique game ideas and mechanics',
-            'Level Design - Designing engaging and balanced game levels',
-            'Character Design - Creating compelling characters and their abilities',
-            'Game Flow & Progression - Structuring gameplay and difficulty curves',
-            'Prototyping - Building simple game prototypes to test ideas'
-        ],
-        technologies: ['Unity', 'Unreal Engine', 'Figma', 'Blender (Basic)', 'Game Maker Studio']
-    },
+    
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, Python.' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science ' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, JavaScript, React Js, Next Js, TypeScript, Node Js, Express Js, MongoDB.' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology ' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 

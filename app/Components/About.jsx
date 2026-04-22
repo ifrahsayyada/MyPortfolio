@@ -58,7 +58,7 @@ const About = ({isDarkMode}) => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                     className='mb-10 max-w-2xl font-Ovo' style={{ color: isDarkMode ? '#d1d5db' : '#374151' }}>
-                        I'm a Frontend Developer passionate about creating clean and interactive web experiences. Even though I'm at the start of my career, I've worked on projects that helped me grow my skills and gain real-world experience, and I'm excited to keep building and learning.
+                        I’m a passionate Full Stack Developer focused on creating clean, interactive, and user-friendly web applications. As an early-career developer, I’ve worked on projects that helped me strengthen my full stack development skills, gain practical experience, and build a strong foundation for continuous learning and growth
                     </motion.p>
 
                     <motion.ul 

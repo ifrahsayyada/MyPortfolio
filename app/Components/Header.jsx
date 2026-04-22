@@ -109,15 +109,14 @@ const Header = ({ isDarkMode }) => {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}  
             className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo leading-tight'>
-                frontend web developer based in India.
+                Full Stack developer based in India.
             </motion.h1>
             <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, delay: 0.6 }}  
             className='text-base sm:text-lg lg:text-xl mt-6 mb-8 max-w-2xl font-Outfit leading-relaxed'>
-                I am a passionate frontend web developer with expertise in HTML, CSS, JavaScript, and React. I create visually appealing and user-friendly websites that deliver exceptional user experiences. Let's collaborate to bring your ideas to life!
-            </motion.p>
+I’m a passionate Full Stack MERN Developer with experience in building responsive, user-friendly web applications using modern web technologies. Alongside full stack development, I’m also exploring Data Science and Data Analytics to strengthen my problem-solving skills and grow into a more versatile, future-ready tech professional.            </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-4'>
                 <motion.a
                 initial={{ y: 30, opacity: 0 }}
